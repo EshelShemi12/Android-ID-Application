@@ -31,12 +31,12 @@
             @Override
             public void onClick(View view) {
 
-                  BreakIterator etID = null;
+                  //BreakIterator etID = null;
                   String idNumber = etID.getText().toString().trim();
 
          String dob = idNumber.substring(0 , 6);
 
-         int gender = Integer.parseI      nt(Character.toString(idNumber.charAt(6)));
+         int gender = Integer.parseInt(Character.toString(idNumber.charAt(6)));
 
          String sGender;
 
